@@ -7,7 +7,7 @@ body {
 }
 
 .Area1, .Footer{
-    background: #1F2937;
+    background: #FF8200;
 }
 
 .Area1 {
@@ -20,17 +20,17 @@ body {
 .Area1 .Title {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    color: white;
 }
 
 .Area1 .Subtext{
     font-size: 18px;
-    color: #E5E7EB;
+    color: white;
 }
 
 .Header .Logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: white;
 }
 
 .Header a {
@@ -40,11 +40,11 @@ body {
 }
 
 .Container button {
-    background-color: #3882F6;
+    background-color: #45003B;
     color: #F9FAF8;
     width: 100px;
     border-radius: 8px;
-    border: 2px solid #3882F6;
+    border: 2px solid #45003B;
     font-size: 20px;
 }
 
@@ -101,16 +101,16 @@ body {
 .Subtext p {
     text-align: center;
     font-size: 18px;
-    color: #1F2937;
+    color: #45003B;
 }
 
 .Area2 .Title {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color: #45003B;
 }
 .Area3 {
-    background: #E5E7EB;
+    background: #FF5D00;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,7 +147,7 @@ body {
 
 .Box {
     display: flex;
-    background: #3882F6;
+    background: #45003B;
     border-radius: 12px;
     width: 1000px;
     height: 200px;
@@ -160,7 +160,7 @@ body {
 }
 
 .Box button {
-    background-color: #3882F6;
+    background-color: #45003B;
     border: 2px solid #F9FAF8;
     font-size: 24px;
     border-radius: 8px;
@@ -191,4 +191,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 150px;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
